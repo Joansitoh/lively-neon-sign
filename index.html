@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Sign Customizable</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.cdnfonts.com/css/neon-led" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="bg-custom h-screen w-full flex items-center justify-center relative"
+  >
+    <div
+      class="absolute bg-black w-full h-screen opacity-0"
+      id="bgControl"
+    ></div>
+    <div id="bgSignControl">
+      <div
+        class="py-6 px-10 border-8 rounded-md neon-border flex flex-col items-center justify-center"
+      >
+        <h1
+          class="leading-none text-[15vh] text-white uppercase neon-text"
+          id="neon-name"
+        >
+          Lively
+        </h1>
+        <div class="flex gap-2">
+          <p
+            class="text-[5vh] leading-none text-white uppercase neon-text"
+            id="neon-clock-date"
+          >
+            0/0/0
+          </p>
+          <p
+            class="text-[5vh] leading-none text-white uppercase neon-text"
+            id="neon-clock-time"
+          >
+            00:00
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

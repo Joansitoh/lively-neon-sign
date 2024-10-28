@@ -1,0 +1,58 @@
+{
+  "name": {
+    "text": "Display Name",
+    "type": "textbox",
+    "value": "Lively"
+  },
+  "timeControl": {
+    "text": "Time Control",
+    "type": "checkbox",
+    "value": true
+  },
+  "dateControl": {
+    "text": "Date Control",
+    "type": "checkbox",
+    "value": true
+  },
+  "brightnessBackgroundControl": {
+    "text": "Background Brightness",
+    "type": "slider",
+    "min": 0,
+    "max": 100,
+    "value": 100
+  },
+  "brightnessSignControl": {
+    "text": "Sign Brightness",
+    "type": "slider",
+    "min": 0,
+    "max": 100,
+    "value": 100
+  },
+  "speedControl": {
+    "text": "Speed of Animation (seconds)",
+    "type": "slider",
+    "min": 2,
+    "max": 5,
+    "value": 3
+  },
+  "insideColorControl": {
+    "text": "Inside Color",
+    "type": "color",
+    "value": "#ffa600"
+  },
+  "outsideColorControl": {
+    "text": "Outside Color",
+    "type": "color",
+    "value": "#ffdb99"
+  },
+  "insideBorderColorControl": {
+    "text": "Outside Border Color",
+    "type": "color",
+    "value": "#ffc14d"
+  },
+  "outsideBorderColorControl": {
+    "text": "Inside Border Color",
+    "type": "color",
+    "value": "#fff2e0"
+  }
+}
